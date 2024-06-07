@@ -1,0 +1,56 @@
+:root{
+    --main-color :#6f5053;
+    --btn-color: rgb(90, 61, 61);
+    --body-color: #fff;
+    --text-color: black;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+.profile .profile-img {
+    height: 80vw;
+    max-height: 35rem;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    transform: translateX(-50%);
+    position: relative;
+    top: -60px;
+    border-radius: 20rem;
+    
+  }
+
+  .py-1{
+    padding-bottom: 0rem !important;
+  }
+  
+.bg-secondary,.btn-light:hover{
+    background-color: var(--main-color) !important;
+   
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+.fs-6:hover{
+    background-color: var(--main-color) !important;
+}
+.btn-light{
+    color: #6c757d;
+    border-color: #6c757d;
+    background-color: white;
+}
+.btn-light:hover{
+    color: white;
+}
