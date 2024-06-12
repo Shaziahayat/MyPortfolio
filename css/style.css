@@ -1,5 +1,5 @@
 :root{
-    --main-color :#6f5053;
+    --main-color :#42617c;
     --btn-color: rgb(90, 61, 61);
     --body-color: #fff;
     --text-color: black;
@@ -26,7 +26,7 @@ body {
     transform: translateX(-50%);
     position: relative;
     top: -60px;
-    border-radius: 20rem;
+    border-radius: 15rem;
     
   }
 
@@ -53,4 +53,18 @@ body {
 }
 .btn-light:hover{
     color: white;
+}
+.bg-white{
+    background-color: var(--main-color) !important; 
+}
+.bg-primary{
+    background-color: #42617c !important;
+}
+.feature{
+    height: 3rem;
+    width: 4rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    font-size: 2rem;
 }
