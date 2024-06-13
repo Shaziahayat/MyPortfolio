@@ -79,6 +79,11 @@ body {
     font-size: 2rem;
 }
 
+.img-fluid {
+    max-width: 21rem;
+    height: 20rem;
+}
+
 .img-fluid:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
