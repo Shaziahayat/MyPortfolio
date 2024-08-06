@@ -93,3 +93,10 @@ body {
 .mb-5 {
     margin-bottom: 5rem !important;
 }
+.text-s{
+
+    margin-top: 0;
+    margin-bottom: 4rem;
+    font-size: 20px;
+
+}
