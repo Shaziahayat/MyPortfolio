@@ -28,7 +28,7 @@ body {
     transform: translateX(-50%);
     position: relative;
     top: -60px;
-    border-radius: 15rem;
+    border-radius: 6rem;
 
 }
 
@@ -100,3 +100,11 @@ body {
     font-size: 20px;
 
 }
+.text-muted{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.button{
+    margin-top: 4rem;
+}
+
