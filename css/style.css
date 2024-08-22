@@ -19,7 +19,19 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+@media (max-width: 576px) { /* Targeting mobile screens */
+.profile .profile-img {
+    height: 60vw;
+    max-height: 18rem;
+    margin-top: 6rem;
+    margin-left: 0rem;
+    transform: none;
+    position: relative;
+    top: 0;
+    border-radius: 4rem;
 
+}
+}
 .profile .profile-img {
     height: 80vw;
     max-height: 35rem;
@@ -30,6 +42,21 @@ body {
     top: -60px;
     border-radius: 6rem;
 
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 16px; /* Smaller brand name */
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px; /* Smaller nav links */
+    }
+    .fs-2 {
+        font-size: 1.25rem; /* Smaller font size for subheadings */
+    }
+    .display-3 {
+        font-size: 2rem; /* Adjust main heading size */
+    }
 }
 
 .py-1 {
